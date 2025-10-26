@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>TaskServlet</servlet-name>
+        <servlet-class>todo.servlet.TaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TaskServlet</servlet-name>
+        <url-pattern>/tasks</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <servlet-class>todo.servlet.UpdateStatusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <url-pattern>/updateStatus</url-pattern>
+    </servlet-mapping>
+</web-app>

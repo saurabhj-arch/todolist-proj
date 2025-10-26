@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; text-align: center; }
+.container { display: flex; justify-content: space-around; margin-top: 20px; }
+.column { width: 30%; border: 1px solid #ccc; padding: 10px; border-radius: 5px; }
+.column h2 { background-color: #f0f0f0; padding: 5px; border-radius: 5px; }
+.task { margin: 5px 0; }
+select { margin-right: 10px; }
